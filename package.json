@@ -2,6 +2,10 @@
   "name": "jito-bundle-example",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "embedded-tip-ix": "bun embedded-tip-ix.ts",
+    "separated-tip-tx": "bun separated-tip-tx.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -12,7 +16,6 @@
     "@solana/web3.js": "^1.95.5",
     "bs58": "^6.0.0",
     "fs": "^0.0.1-security",
-    "jito-js-rpc": "^0.1.0",
     "jito-ts": "^4.1.2"
   }
 }
