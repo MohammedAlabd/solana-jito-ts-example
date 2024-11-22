@@ -12,7 +12,6 @@ To run the embedded tip example:
 
 ```bash
 bun embedded-tip-ix
-    "separated-tip-tx": "bun src/separated-tip-tx.ts"
 ```
 
 To run the separated tip transaction example:
