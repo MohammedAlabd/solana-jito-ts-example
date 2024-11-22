@@ -3,8 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "embedded-tip-ix": "bun embedded-tip-ix.ts",
-    "separated-tip-tx": "bun separated-tip-tx.ts"
+    "embedded-tip-ix": "bun src/embedded-tip-ix.ts",
+    "separated-tip-tx": "bun src/separated-tip-tx.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
