@@ -1,15 +1,22 @@
 # jito-bundle-example
 
+A simple example on how to use `jito-ts` to submit Jito bundles
+
 To install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+To run the embedded tip example:
 
 ```bash
-bun run index.ts
+bun embedded-tip-ix
+    "separated-tip-tx": "bun src/separated-tip-tx.ts"
 ```
 
-This project was created using `bun init` in bun v1.1.27. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+To run the separated tip transaction example:
+
+```bash
+bun separated-tip-tx
+```
